@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/dashboard', 'DashboardController@index');
+Route::get('dashboard', ['as'=>'dashboard', 'uses' => 'DashboardController@index']);
