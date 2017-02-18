@@ -63,7 +63,7 @@
     <!-- FastClick -->
     <script src="{{ asset('vendors/fastclick/lib/fastclick.js') }}"></script>
     <!-- iCheck -->
-    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <script src="{{ asset('vendors/iCheck/icheck.min.js') }}"></script>
     
     <!-- Custom Theme Scripts -->
     <script src="{{ asset('js/app.min.js') }}"></script>
